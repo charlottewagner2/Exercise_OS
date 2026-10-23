@@ -26,7 +26,7 @@ Data was collected using a common data collection protocol at 27 sites ranging f
 
 In each patch, vertebrate herbivore species richness was estimated from pellets presence and absence\[HL19.1\] recorded in 1-m² subplots along ten 10-m linear transects. Most pellets were assigned to a single species, whereas some could correspond to several potential species (e.g. goose pellets). For each patch, species\[HL20.1\] richness was calculated as the total number of species detected, counting all potential species when a pellet could be assigned to multiple species.
 
-#Data analysis
+# Data analysis
 
 ```{r}
 #| label: load-data
@@ -75,3 +75,5 @@ ggplot(herbivore_data_shannon, aes(x = site, y = shannon, fill = site)) +
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+<!--# AG: very very good about the Quarto coding. the read me is there and clear. The html resulting from this script is nice and easy to follow. This github is doing a good first version of open science by its reproducibility and its accessibility. -->
